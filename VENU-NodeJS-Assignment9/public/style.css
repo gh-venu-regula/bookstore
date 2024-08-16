@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#inputsContainer{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    width: 100%;
+    height: 20vh;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#container1{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#ButtonContainer{
+    text-align: center;
+    padding: 5px;
+}
+#addNewBook{
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+.inputField{
+    border-radius: 10px;
+    border: 1px solid rgba(137, 133, 133, 0.628);;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: rgba(241, 233, 233, 0.667);
+    transition: transform 0.3s ease-in;
+}
+.inputField:focus{
+    border: 2px solid green;
+    background: rgba(248, 247, 247, 0.87);
+    outline: none;
+    transform: scale(1.1);
+}
+#container2{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 10%; 
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.5s ease, border 0.5s ease;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+ 
+.card:hover {
+    border: 2px solid green;
+    z-index: 1;
+    transform: scale(1.15);
+    overflow: auto;
+}
+.cardName{
+    font-weight: bold;
+}
+.starImage{
+    width: 100%;
+    height: 100%;
+}
+.starContainer{
+    display: flex;
+    flex-direction: row;
+}
+.star{
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+.halfStar{
+    width: 7.5px;
+    height: 15px;
+}

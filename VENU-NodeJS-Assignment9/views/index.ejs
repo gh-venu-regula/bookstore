@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="background-color: green;color: #fff;text-align: center; border-radius: 8px; padding: 5px;">Book Store</h1>
+    <div id="mainContainer">
+        <form id="myForm">
+            <div id="container1">
+        <div id="inputsContainer">
+            <input type="text" id="title" class="inputField" placeholder="Title" required>
+            <input type="text" id="author" class="inputField" placeholder="Author" required>
+            <input type="text" id="genre" class="inputField" placeholder="Genre" required>
+            <input type="number" id="pub_year" class="inputField" placeholder="Publication Year" required>
+            <input type="text" id="language" class="inputField" placeholder="Language" required>
+            <input type="number" id="price" class="inputField" placeholder="Price" step="0.01" required>
+            <input type="text" id="publisher" class="inputField" placeholder="Publisher" required>
+            <input type="text" id="isbn" class="inputField" placeholder="isbn" required>
+            <input type="number" id="rating" class="inputField" placeholder="Rating(5)" step="0.5" required>
+            <input type="text" id="url" class="inputField" placeholder="url for book" required> 
+        </div>
+        <div id="ButtonContainer">
+            <button type="submit" id="addNewBook">Add Book</button>
+        </div>
+    </div>
+    </form>
+        <div id="container2">
+            <div id="cardContainer">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
