@@ -23,7 +23,11 @@ const mydb=mysql.createConnection({
     user:process.env.USER,
     password:process.env.PASSWORD,
     database:process.env.DATABASE,
-    uri:process.env.URI
+    uri:process.env.URI,
+    waitForConnections: true,
+  connectionLimit:10,
+  queueLimit:0,
+  connectTimeout:10000
 });
 mydb.connect((err)=>{
     if(err){
