@@ -23,7 +23,11 @@ const mydb=mysql.createConnection({
     user:process.env.USER,
     password:process.env.PASSWORD,
     database:process.env.DATABASE,
-    uri:process.env.URI
+    uri:process.env.URI,
+    connectTimeout: 10000,
+    ssl: {
+    rejectUnauthorized: true
+  }
 });
 mydb.connect((err)=>{
     if(err){
