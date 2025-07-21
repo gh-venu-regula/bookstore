@@ -14,7 +14,7 @@ NOTE : I added a new extra column for database called 'url' for displaying book 
    option-2 : Navigate to the 👉👉 http://localhost:3000/home/book-id 👈👈 where id replaced by 1 ,2, etc.,
    (navigating to an unavailable book-id will displays 404 NOT FOUND).
 
-4.EDIT A SPECIFIC BOOK (using PUT method)
+4.EDIT A SPECIFIC BOOK (using PUT method)ASDFRGTYHUJKL;'
 
    step-1 : Navigate to specific book by double click on it.
    step-2 : click on edit button( blue pen symbol on top right corner) and a pop up modal will be displayed with a from.
